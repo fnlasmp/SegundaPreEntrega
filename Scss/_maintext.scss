@@ -1,0 +1,26 @@
+/* H1 y H2 */
+
+.h1 {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    line-height: 1rem;
+}
+
+h2 {
+    text-align: center;
+    background-color: $violeta;
+    text-shadow: 2px 2px 5px white;
+}
+
+/* Main */
+
+main {
+    height: 80vh;
+    flex: 1;
+    flex-direction: coslumn;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,51 @@
+/* Page DONAS*/
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    background-color: $violeta;
+    padding: 10px;
+    grid-gap: 15px;
+    min-height: 80vh;
+}
+
+/*Donas*/
+
+.item {
+    border: 5px solid black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    img {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.overlay {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(26, 25, 25, 0.644);
+    opacity: 0;
+    transition-duration: 0.8s;
+
+    h3 {
+        color: rgba(221, 224, 226, 0.973);
+    }
+
+    /*Efecto imagen donas*/
+    &:hover {
+        opacity: 100%;
+    }
+}

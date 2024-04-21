@@ -1,0 +1,21 @@
+/* Footer */
+
+footer {
+    background-color: $gris;
+    color: black;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.redes a {
+    color: $crema;
+    text-decoration: none;
+    font-size: 30px;
+
+    &:hover {
+        color: $violeta;
+    }
+}

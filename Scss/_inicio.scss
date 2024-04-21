@@ -1,0 +1,34 @@
+/*Index*/
+
+.principal {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    margin-top: 90px;
+}
+
+.nleft {
+    width: 50%;
+    height: 350px;
+    background-image: url(../Assets/portadad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nright {
+    display: inline;
+    width: 50%;
+    background-color: azure;
+
+    h2 {
+        text-align: center;
+        background-color: $gris;
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
