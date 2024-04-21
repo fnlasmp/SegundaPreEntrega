@@ -60,12 +60,18 @@ main {
   padding: 20px;
 }
 
+.textop {
+  margin-top: 30px;
+  margin-bottom: 250px;
+}
+
 /*Index*/
 .principal {
   width: 100%;
   min-height: 350px;
   display: flex;
   margin-top: 90px;
+  margin-bottom: 80px;
 }
 
 .nleft {
