@@ -98,6 +98,41 @@ main {
   padding: 10px;
 }
 
+.secundario {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+
+.aaleft {
+  display: inline;
+  width: 50%;
+  background-color: azure;
+}
+.aaleft h2 {
+  text-align: center;
+  background-color: #8ebdd3;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.aaleft p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.aaright {
+  width: 50%;
+}
+.aaright video {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
 /* Page DONAS*/
 .galeria {
   display: grid;
@@ -238,6 +273,12 @@ footer {
     text-align: center;
     margin-top: 20px;
   }
+  .aaright {
+    width: 100%;
+  }
+  .aaleft {
+    width: 100%;
+  }
 }
 .nright {
   font-size: 10px;
@@ -247,6 +288,14 @@ footer {
   .galeria {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 400px);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .aaright {
+    width: 100%;
+  }
+  .aaleft {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1024px) {

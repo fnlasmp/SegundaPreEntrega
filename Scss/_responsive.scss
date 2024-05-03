@@ -19,7 +19,16 @@
         text-align: center;
         margin-top: 20px;
     }
+
+    .aaright {
+        width: 100%;
+    }
+
+    .aaleft {
+        width: 100%;
+    }
 }
+
 
 .nright {
     font-size: 10px;
@@ -30,6 +39,19 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, 400px);
     }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .aaright {
+        width: 100%;
+    }
+
+    .aaleft {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 1024px) {
